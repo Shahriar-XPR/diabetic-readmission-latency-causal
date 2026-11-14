@@ -1,7 +1,5 @@
 # Latency-Aware Interpretable and Causal Counterfactual Analysis for Diabetic Readmission Prediction
 
-Code for the IEEE paper by Shafak Shahriar Sozol, M. Rubaiyat Hossain Mondal and Utku Kose.
-
 Five classifiers (CatBoost, Random Forest, XGBoost, LightGBM, TabNet) predict 30-day readmission
 of diabetic patients. The reference model is chosen on accuracy and inference latency, then
 explained with SHAP, GEMEX, DirectLiNGAM and a DR-Learner.
