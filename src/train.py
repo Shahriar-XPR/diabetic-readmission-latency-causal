@@ -16,7 +16,7 @@ def prepare_data(csv_path=DATA_PATH):
     frame = preprocess_dataframe(raw)
     X = frame.drop(columns="readmitted")
     y = frame["readmitted"]
-    # As in the paper, SMOTE is applied before the 75:25 split (see README, Notes).
+    # As in the paper, SMOTE is applied before the 75:25 split.
     X_bal, y_bal = SMOTE(sampling_strategy="minority", random_state=RANDOM_STATE).fit_resample(X, y)
     X_train, X_test, y_train, y_test = train_test_split(X_bal, y_bal, test_size=TEST_SIZE, random_state=RANDOM_STATE)
     scaler = StandardScaler()

@@ -37,20 +37,6 @@ python -m src.train                  # add --device cuda for GPU
 
 SHAP, GEMEX and causal analyses are available as functions in `src/explain.py` and `src/causal.py`.
 
-## Key results
-
-| Model (tuned) | Accuracy (%) | AUROC (%) | Inference (s) |
-|---|---|---|---|
-| LightGBM | 91.5 | 96.5 | 7.22 |
-| **XGBoost** | **90.2** | **95.7** | **0.05** |
-
-Full tables are in [`results/`](results/).
-
-## Notes
-
-- As stated in the paper, SMOTE is applied before the train–test split; resampling within training folds only is left for future work.
-- `src/config.py` uses the Table II hyperparameters, so re-runs may differ slightly from the reported values.
-
 ## License
 
 MIT. See [`LICENSE`](LICENSE). The dataset is subject to its own terms and is not redistributed.
