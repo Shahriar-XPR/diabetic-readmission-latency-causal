@@ -1,6 +1,6 @@
 # Latency-Aware Interpretable and Causal Counterfactual Analysis for Diabetic Readmission Prediction
 
-Code for the IEEE CARS 2026 paper by Shafak Shahriar Sozol, M. Rubaiyat Hossain Mondal and Utku Kose.
+Code for the IEEE paper by Shafak Shahriar Sozol, M. Rubaiyat Hossain Mondal and Utku Kose.
 
 Five classifiers (CatBoost, Random Forest, XGBoost, LightGBM, TabNet) predict 30-day readmission
 of diabetic patients. The reference model is chosen on accuracy and inference latency, then
@@ -47,7 +47,6 @@ MIT. See [`LICENSE`](LICENSE). The dataset is subject to its own terms and is no
 @inproceedings{sozol2026latency,
   title     = {Latency-Aware Interpretable and Causal Counterfactual Analysis for Diabetic Readmission Prediction},
   author    = {Sozol, Shafak Shahriar and Mondal, M. Rubaiyat Hossain and Kose, Utku},
-  booktitle = {2026 Cyber Awareness and Research Symposium (CARS)},
   publisher = {IEEE},
   year      = {2026}
 }
