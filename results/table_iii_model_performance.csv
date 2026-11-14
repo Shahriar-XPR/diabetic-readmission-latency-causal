@@ -1,0 +1,11 @@
+Model,Configuration,Accuracy (%),Precision (%),Recall (%),F1 (%),AUROC (%),Inference time (s)
+CatBoost,Default,84.7,86.5,81.9,84.2,92.1,0.07
+CatBoost,Tuned,90.5,90.9,89.9,90.4,95.9,0.15
+Random Forest,Default,91.3,92.2,90.0,91.1,96.3,0.56
+Random Forest,Tuned,90.3,90.7,89.5,90.1,95.6,4.12
+XGBoost,Default,86.5,88.2,83.9,86.0,93.3,0.04
+XGBoost,Tuned,90.2,91.5,88.3,89.9,95.7,0.05
+LightGBM,Default,84.6,87.5,80.3,83.7,92.0,0.28
+LightGBM,Tuned,91.5,92.8,89.8,91.3,96.5,7.22
+TabNet,Default,81.0,79.8,82.6,81.2,89.5,1.18
+TabNet,Tuned,87.9,88.1,87.3,87.7,94.0,0.97

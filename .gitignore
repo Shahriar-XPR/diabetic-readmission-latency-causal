@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+data/*.csv
+results/reproduced_*
+figures/reproduced_*
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.zip
+.DS_Store

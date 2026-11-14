@@ -1,0 +1,6 @@
+Model,Tuned hyperparameters
+CatBoost,iterations=389; depth=10; learning_rate=0.096; l2_leaf_reg=0.025; bagging_temperature=2.23; bootstrap_type=Bayesian; boosting_type=Plain; od_wait=41; min_data_in_leaf=101
+Random Forest,n_estimators=965; max_depth=30; min_samples_split=5; min_samples_leaf=1; max_features=None; class_weight=balanced_subsample
+XGBoost,n_estimators=316; max_depth=11; learning_rate=0.099; subsample=0.82; colsample_bytree=0.55; gamma=1.18; min_child_weight=5; reg_alpha=0.007; reg_lambda=0.0002
+LightGBM,n_estimators=922; learning_rate=0.072; max_depth=11; num_leaves=142; min_child_samples=95; subsample=0.77; colsample_bytree=0.83; reg_alpha≈0; reg_lambda=1.55
+TabNet,n_d=40; n_a=40; n_steps=5; gamma=1.13; lambda_sparse=1.4e-05; lr=0.016; mask_type=entmax
